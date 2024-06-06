@@ -1,0 +1,112 @@
+[
+  {
+    "spørgsmål": "Hvad er en primærnøgle i SQL?",
+    "svarmuligheder": [
+      "En nøgle der kan antage flere værdier",
+      "En nøgle der identificerer unikke rækker i en tabel",
+      "En nøgle der kun kan bruges til læseoperationer",
+      "En nøgle der refererer til en anden tabel"
+    ],
+    "hint": "Det bruges til at identificere unikke rækker.",
+    "TrueAnswer": 1
+  },
+  {
+    "spørgsmål": "Hvad bruges en JOIN operation til i SQL?",
+    "svarmuligheder": [
+      "At kombinere rækker fra to eller flere tabeller baseret på en relateret kolonne mellem dem",
+      "At slette data fra en tabel",
+      "At oprette en ny database",
+      "At ændre strukturen af en tabel"
+    ],
+    "hint": "Det er nyttigt, når du vil kombinere data fra flere tabeller.",
+    "TrueAnswer": 0
+  },
+  {
+    "spørgsmål": "Hvad er forskellen mellem INNER JOIN og OUTER JOIN?",
+    "svarmuligheder": [
+      "INNER JOIN returnerer kun matchende rækker, mens OUTER JOIN returnerer alle rækker",
+      "INNER JOIN returnerer alle rækker, mens OUTER JOIN returnerer kun matchende rækker",
+      "De er begge det samme",
+      "INNER JOIN bruges kun til at kombinere to tabeller, mens OUTER JOIN kan kombinere flere tabeller"
+    ],
+    "hint": "Tænk på hvilke rækker der returneres.",
+    "TrueAnswer": 0
+  },
+  {
+    "spørgsmål": "Hvad gør SQL-kommandoen SELECT?",
+    "svarmuligheder": [
+      "Sletter data fra en tabel",
+      "Opdaterer data i en tabel",
+      "Vælger data fra en tabel",
+      "Opretter en ny tabel"
+    ],
+    "hint": "Det bruges til at hente data.",
+    "TrueAnswer": 2
+  },
+  {
+    "spørgsmål": "Hvad er en fremmednøgle i SQL?",
+    "svarmuligheder": [
+      "En nøgle der kan antage flere værdier",
+      "En nøgle der refererer til en primærnøgle i en anden tabel",
+      "En nøgle der kun kan bruges til læseoperationer",
+      "En nøgle der identificerer unikke rækker i en tabel"
+    ],
+    "hint": "Det bruges til at oprette relationer mellem tabeller.",
+    "TrueAnswer": 1
+  },
+  {
+    "spørgsmål": "Hvad bruges SQL-kommandoen INSERT INTO til?",
+    "svarmuligheder": [
+      "At opdatere data i en tabel",
+      "At slette data fra en tabel",
+      "At indsætte nye rækker i en tabel",
+      "At oprette en ny tabel"
+    ],
+    "hint": "Det bruges til at tilføje nye data.",
+    "TrueAnswer": 2
+  },
+  {
+    "spørgsmål": "Hvordan kan du ændre strukturen af en eksisterende tabel i SQL?",
+    "svarmuligheder": [
+      "BRUG kommandoen",
+      "MODIFY kommandoen",
+      "CHANGE kommandoen",
+      "ALTER kommandoen"
+    ],
+    "hint": "Det er en almindelig SQL-kommando for at ændre en tabel.",
+    "TrueAnswer": 3
+  },
+  {
+    "spørgsmål": "Hvad gør SQL-kommandoen DELETE?",
+    "svarmuligheder": [
+      "Sletter en tabel",
+      "Sletter rækker fra en tabel",
+      "Opdaterer data i en tabel",
+      "Opretter en ny tabel"
+    ],
+    "hint": "Det bruges til at fjerne data.",
+    "TrueAnswer": 1
+  },
+  {
+    "spørgsmål": "Hvad er en unik begrænsning i SQL?",
+    "svarmuligheder": [
+      "En begrænsning der tillader dubletter i en kolonne",
+      "En begrænsning der kræver unikke værdier i en kolonne",
+      "En begrænsning der gør en kolonne til en primærnøgle",
+      "En begrænsning der gør en kolonne til en fremmednøgle"
+    ],
+    "hint": "Det sikrer, at alle værdier i kolonnen er forskellige.",
+    "TrueAnswer": 1
+  },
+  {
+    "spørgsmål": "Hvad er SQL-kommandoen UPDATE brugt til?",
+    "svarmuligheder": [
+      "At opdatere eksisterende data i en tabel",
+      "At slette data fra en tabel",
+      "At indsætte nye data i en tabel",
+      "At oprette en ny tabel"
+    ],
+    "hint": "Det bruges til at ændre eksisterende data.",
+    "TrueAnswer": 0
+  }
+]
